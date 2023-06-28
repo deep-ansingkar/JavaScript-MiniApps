@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>See What You Type</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>See What You Type</h1>
+      <tr id="row">
+        <td>
+          <h2><textarea class="item-container" type="text" id="item-input5" rows="12"></textarea></h2>
+        </td>
+        </tr>
+        <h3>Your Text:</h3>
+
+        <div id="result_text"></div>
+                
+      
+    </div>
+  </body>
+  <script>
+    document.querySelector('#item-input5').addEventListener('input', (event) => {
+  document.querySelector('#result_text').textContent = event.currentTarget.value
+});
+  </script>
+</html>
