@@ -32,9 +32,9 @@ Feel free to explore and interact with each mini app.
 
 6. [**JokeGenerator**](): This mini app fetches and displays random jokes from an API. It showcases API integration and asynchronous programming.
 
-7. [**QRCodeGenerator**()]: This mini app generates QR codes for user-provided text. It demonstrates integration with a QR code generation library.
+7. [**QRCodeGenerator**](): This mini app generates QR codes for user-provided text. It demonstrates integration with a QR code generation library.
 
-8. [**RandomQuoteGenerator**()]: This mini app displays random quotes fetched from an API. It showcases API integration and asynchronous programming.
+8. [**RandomQuoteGenerator**](): This mini app displays random quotes fetched from an API. It showcases API integration and asynchronous programming.
 
 ## Usage
 
