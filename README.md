@@ -38,7 +38,7 @@ Feel free to explore and interact with each mini app.
 
 ## Usage
 
-To run any of the mini apps locally, follow these steps:
+To run any of the mini apps locally, follow these steps:-
 
 1. Clone the repository: `git clone [repository-url]`
 2. Navigate to the project directory: `cd [project-directory]`
